@@ -181,3 +181,5 @@ body {
   color: #666;
   text-shadow: 1px 1px 0 #444;
 }
+
+@page { margin: 0% }
