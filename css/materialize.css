@@ -5248,7 +5248,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  color:#2296f3;
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -5404,8 +5404,9 @@ button.btn-floating {
   width: 55%;
   margin: auto;
   overflow-y: auto;
-  border-radius: 2px;
-  will-change: top, opacity;
+  border-radius: 15px;
+  /*will-change: top, opacity;*/
+  z-index: 1000;
 }
 
 @media only screen and (max-width: 992px) {
@@ -5441,14 +5442,13 @@ button.btn-floating {
 
 .modal-overlay {
   position: fixed;
-  z-index: 999;
   top: -100px;
   left: 0;
   bottom: 0;
   right: 0;
   height: 125%;
   width: 100%;
-  background: #000;
+  /*background: #FFF;*/
   display: none;
   will-change: opacity;
 }
